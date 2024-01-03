@@ -1,0 +1,135 @@
+@keyframes expand_chat {
+
+    0%{
+        bottom: 2%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 10%;
+        opacity: 100%;
+    }
+  
+}
+  
+@keyframes expand_whatsapp {
+
+    0%{
+        bottom: 2%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 18%;
+        opacity: 100%;
+    }
+
+}
+
+@keyframes expand_fb {
+
+    0%{
+        bottom: 2%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 26%;
+        opacity: 100%;
+    }
+
+}
+
+@keyframes expand_insta {
+
+    0%{
+        bottom: 2%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 34%;
+        opacity: 100%;
+        
+    }
+
+}
+
+
+@media (max-width: 600px) { 
+
+    .heading_row1{
+        backdrop-filter: blur(3px);
+        text-align: center;
+    }
+    
+    .heading_row1 h1{
+    
+        font-size: 3rem;
+
+    
+    }
+    
+    .heading_row1 h4{
+    
+        font-size: 2rem;
+    
+    }
+
+
+    .banner_p p{
+
+        font-size: .7em;
+        text-align: center;
+
+    }
+    
+    .left_info{
+        margin: 0;
+        top: initial;
+        left: 0;
+        bottom: 5%;
+        transform: translatey(100%);
+        width: 100%;
+        height: 20%;
+    }
+
+    .carousel_set.active .left_info{
+        transform: translatey(0);
+
+    }
+
+    .left_info .blur-back{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .blur-back h1{
+        font-size: 3.5rem;
+    }
+
+    .right_info{
+
+        display: none;
+    }
+
+    .destination h1 {
+        font-size: 2em;
+    }
+    
+    /* .destination .para1{
+        font-size: .5em;
+    }
+     */
+    .destination .para2{
+        /* font-size: .5em; */
+        display: none;
+
+    }
+    
+    .subs_padding{
+        padding: 1.5em;
+    }
+
+    .footer_body {
+        height: auto;
+        padding: 20px;
+      }
+}
